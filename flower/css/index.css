@@ -1,0 +1,356 @@
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 999;
+
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/* a为行内元素 */
+.logo a {
+    /* 行内元素转换为块元素 */
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li.startActive a{
+    color: #16b0bc;
+}
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: .5s;
+    color:#fff;
+}
+
+.navList li a:hover {
+    color: #16b0bc;
+}
+
+/* nav */
+.art {
+    width: 100%;
+    height: 744px;
+}
+.artContent {
+    width: 1170px;
+    height: 604px;
+    padding: 70px 0;
+    margin: 0 auto;
+}
+.artContent h1 {
+    text-align: center;
+    font-weight: 200;
+    height: 50px;
+}
+.artContent p {
+    text-align: center;
+    color: #5e7387;
+    font-size: 16px;
+}
+.artContent .artImg {
+    width: 1170px;
+    height: 476px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.artImg .left ,.artImg .right,.artImg .middle {
+    float: left;
+}
+.artImg .left,.artImg .right {
+    width:75px;
+    height: 100%;
+    line-height:476px;
+    text-align: center;
+}
+.artImg .left img,.artImg .right img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.artImg .middle {
+    width: 1020px;
+    height: 100%;
+    overflow: hidden;
+}
+.artList {
+    width: 1400px;
+    height: 100%;
+}
+.artList .artItem {
+    width: 320px;
+    height: 476px;
+    margin-right: 30px;
+    float: left;
+}
+.artItem img {
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+.artItem h4 {
+    font-size: 18px;
+    color: #37474f;
+    text-align: center;
+    font-weight: 400;
+}
+.artItem p {
+    font-size: 14px;
+    color: #757575;
+    margin: 11px 0;
+}
+.artDetail {
+    width: 100%;
+    height: 36px;
+    background: #f96868;
+    text-align: center;
+    border-radius: 3px;
+}
+.artDetail a {
+    display: inline-block;
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+}
+    /* Art */
+.big{
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+.banner {
+    width: 100%;
+    height: 720px;
+    background: #cccccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.imgBox {
+    width: 100%;
+    height: 100%;
+
+}
+
+.imgBox li, .imgBox li a, .imgBox li a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.imgBox li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* banner */
+.flower {
+    width: 100%;
+    height: 750px;
+    background: #f5f5f5;
+}
+.flowerContent {
+    width: 1170px;
+    height: 610px;
+    margin:0 auto;
+    padding: 70px 0;
+
+}
+.flowerContent h1 {
+    height: 50px;
+    text-align: center;
+    font-weight: 200;
+}
+.flowerList {
+    width: 100%;
+    height: 560px;
+}
+.flowerList .floweritem {
+    float: left;
+    width: 570px;
+    height: 110px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.flowerList .floweritem:nth-of-type(even){
+    margin-right: 0;
+}
+.floweritem .itemThumb {
+    width: 160px;
+    height: 96px;
+    float: left;
+}
+.itemThumb a ,.itemThumb a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floweritem .itemInfo {
+    width: 390px;
+    height: 100%;
+    float: right;
+    font-size: 14px;
+    color: #76838f;
+}
+.itemInfo h2 a {
+    font-weight: 400;
+    font-size: 18px;
+    transition: all ease .5s;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.itemInfo h2 a:hover {
+    color: #16b0bc;
+    text-decoration: underline;
+}
+.itemInfo p.infoDesc {
+    display: block;
+    padding: 5px 0;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.itemInfo p.infoDesc::after {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.infoOther{
+margin-top: 5px;
+}
+/* flower */
+.workroom {
+    width: 100%;
+    height: 905px;
+    background: white;
+    padding: 70px 0;
+}
+.workroomContentBorder {
+    width: 100%;
+    height: 765px;
+}
+.workroomContent {
+    width: 100%;
+    height: 765px;
+}
+.workroomContent h3 {
+    text-align: center;
+    font-size: 36px;
+}
+.workroomContent p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+.workroomContent .one {
+    margin-top: 50px;
+}
+.workroomContent .two {
+    margin-top: 20px;
+}
+.workroomContent .ditu {
+    margin-top: 30px;
+}
+/* workroom */
+.footer {
+    width: 100%;
+    height: 182px;
+    background: #f5f5f5;
+}
+.footer .line{
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top:1px solid #f0f2f5;
+
+}
+.footer .footerContent {
+    width: 1170px;
+    height:160px ;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+.footerContent .contactList {
+    width: 116px;
+    height: 56px;
+    padding: 13px 0;
+    margin: 0 auto;
+}
+.contactList .wechat a img{
+    width:30px;
+    height: 26px;
+    float: left;
+    margin-right: 15px;
+
+}
+.contactList .qq a img{
+    width:26px;
+    height: 26px;
+    float: left;
+    margin-right: 15px;
+}
+.contactList .email a img{
+    width:26px;
+    height: 26px;
+    float: left;
+}
+.footerContent p {
+    text-align: center;
+    color: #aaa;
+    line-height: 1.8;
+}
+.footerContent p a {
+    color: #62a8ea;
+}
+.footerContent p a:hover{
+    text-decoration: underline;
+}
+.footerContent p a img {
+    width: 20px;
+    height: 20px;
+}
+/* footer */

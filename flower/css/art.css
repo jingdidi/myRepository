@@ -1,0 +1,241 @@
+.big {
+    width: 100%;
+    height: 79px;
+}
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+/* a为行内元素 */
+.logo a {
+    /* 行内元素转换为块元素 */
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+
+.navList li.startActive a {
+    color: #16b0bc;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: .1s;
+    color: #2a333c;
+}
+
+.navList li a:hover {
+    color: #16b0bc;
+}
+
+/* nav */
+.artBrowserList {
+    width: 100%;
+    height: 1089px;
+}
+
+.artBrowserList .artBrowserItem {
+    width: 674px;
+    height: 532px;
+    float: left;
+    background: black;
+    overflow: hidden;
+
+}
+.artBrowserItem:hover .browserInfoDetail span,.artBrowserItem:hover .browserInfoDetail h3,.artBrowserItem:hover .browserInfoDetail .button a{
+    color:rgba(255,255,255,1);
+
+}
+.artBrowserItem:hover .browserInfoDetail .button{
+    border: 1px solid #fff;
+
+}
+.artBrowserItem:hover .browserInfoDetail .whiteLine{
+    background: #fff;
+}
+.artBrowserItemContent{
+    width: 674px;
+    height: 532px;
+    position: relative;
+}
+.artBrowserList .artBrowserItem .artImg img {
+    width: 674px;
+    height: 532px;
+    opacity: .8;
+    transition: all .5s;
+
+}
+
+.artBrowserList .artBrowserItem .artImg img:hover {
+    transform: scale(1.1);
+    opacity: .6;
+}
+
+.artBrowserList .browserInfo {
+    width: 120px;
+    height: 137px;
+    position: absolute;
+    left: 277px;
+    top: 197px;
+
+}
+.artBrowserList .browserInfo .browserInfoDetail {
+    width: 120px;
+    height: 137px;
+    text-align: center;
+    color:rgba(255,255,255,.8);
+}
+
+.browserInfoDetail .whiteLine {
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    background: rgba(255,255,255,.8);
+}
+
+.browserInfoDetail h3 {
+    margin-bottom: 19px;
+}
+
+.browserInfoDetail .button {
+    width: 60px;
+    height: 36px;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    background-color: transparent;
+    margin: 0 auto;
+
+}
+
+.browserInfoDetail .button a {
+    display: block;
+    width: 60px;
+    height: 36px;
+    color:rgba(255,255,255,.8);
+    text-align: center;
+    line-height: 36px;
+
+}
+
+.browserInfoDetail .button a:hover {
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid transparent;
+    opacity: 1;
+}
+
+/* artBrowserList */
+.footer {
+    width: 100%;
+    height: 182px;
+    background: #f5f5f5;
+}
+
+.footer .line {
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top: 1px solid #f0f2f5;
+
+}
+
+.footer .footerContent {
+    width: 1170px;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.footerContent .contactList {
+    width: 116px;
+    height: 56px;
+    padding: 13px 0;
+    margin: 0 auto;
+}
+
+.contactList .wechat a img {
+    width: 30px;
+    height: 26px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.contactList .qq a img {
+    width: 26px;
+    height: 26px;
+    float: left;
+    margin-right: 15px;
+}
+
+.contactList .email a img {
+    width: 26px;
+    height: 26px;
+    float: left;
+}
+
+.footerContent p {
+    text-align: center;
+    color: #aaa;
+    line-height: 1.8;
+}
+
+.footerContent p a {
+    color: #62a8ea;
+}
+
+.footerContent p a:hover {
+    text-decoration: underline;
+}
+
+.footerContent p a img {
+    width: 20px;
+    height: 20px;
+}
+
+/* footer */

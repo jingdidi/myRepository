@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font: 14px/1.5 '微软雅黑', 'Microsoft Sans Serif';
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #2a333c;
+}
+
+/* 默认样式 */
