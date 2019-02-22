@@ -109,11 +109,10 @@
 
 }
 
-.artBrowserList .artBrowserItem .artImg img:hover {
+.artBrowserList .artBrowserItem:hover .artImg img{
     transform: scale(1.1);
     opacity: .6;
 }
-
 .artBrowserList .browserInfo {
     width: 120px;
     height: 137px;
@@ -160,7 +159,7 @@
 
 }
 
-.browserInfoDetail .button a:hover {
+.browserInfoDetail .button a.liulan:hover {
     color: #76838f;
     background-color: #fff;
     border: 1px solid transparent;
