@@ -1,0 +1,535 @@
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑","Microsoft Sans Serif";
+}
+
+.header {
+    width: 100%;
+    height: 3.11rem;
+    background-image: linear-gradient(90deg,
+    #f77ad5 0%,
+    #f855c7 59%,
+    #f92fb9 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent {
+    width: 7.02rem;
+    height: 2.6rem;
+    margin-top: 0.2rem;
+}
+
+.headerTop {
+    width: 100%;
+    height: 0.45rem;
+}
+
+.headerTop .back {
+    width: 0.21rem;
+    height: 0.32rem;
+    float: left;
+    margin-top: 0.065rem;
+}
+
+.headerTop .back img {
+    width: 0.21rem;
+    height: 0.32rem;
+}
+
+.headerTop .list {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.headerTop .list .collect, .headerTop .list .share {
+    width: 0.45rem;
+    height: 0.45rem;
+    background: #fff;
+    margin-left: 0.18rem;
+    border-radius: 50%;
+}
+
+.headerTop .list .collect img {
+    display: block;
+    width: 0.3rem;
+    height: 0.28rem;
+    margin: 0 auto;
+    margin-top: 0.085rem;
+}
+
+.headerTop .list .share img {
+    display: block;
+    width: 0.31rem;
+    height: 0.31rem;
+    margin: 0 auto;
+    margin-top: 0.07rem;
+}
+
+.headerBottom {
+    width: 100%;
+    height: 1.63rem;
+    margin-top: 0.52rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopHead {
+    width: 1.51rem;
+    height: 1.49rem;
+    border-radius: 0.15rem;
+    border: solid 0.03rem #ffffff;
+    margin-left: 0.21rem;
+}
+
+.shopHead img {
+    width: 1.45rem;
+    height: 1.43rem;
+    border-radius: 0.15rem;
+}
+
+.shopInfo {
+    width: 5.34rem;
+    height: 1.63rem;
+    margin-left: 0.17rem;
+}
+
+.shopInfo span {
+    color: #f7f6f6;
+    display: block;
+}
+
+span.shopName {
+    font-size: 0.3rem;
+}
+
+ul.decoration {
+    width: 3.66rem;
+    height: 0.1rem;
+    margin: 0.06rem 0 0.04rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.decoration li {
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #e4a8d2;
+    border-radius: 50%;
+}
+
+.positionInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.12rem;
+}
+
+.positionInfo .imgPosition {
+    width: 0.17rem;
+    height: 0.21rem;
+    margin-right: 0.03rem;
+}
+
+.positionInfo .imgPosition img {
+    display: block;
+    width: 0.17rem;
+    height: 0.21rem;
+}
+
+.positionInfo .position {
+    font-size: 0.24rem;
+}
+
+.distributionInfo {
+    color: #f7f6f6;
+    font-size: 0.2rem;
+    display: flex;
+}
+
+.distributionInfo span.length {
+    display: block;
+    width: 0.92rem;
+    height: 0.29rem;
+    border-radius: 0.15rem;
+    border: solid 0.02rem #ffffff;
+    text-align: center;
+    line-height: 0.25rem;
+}
+
+.distributionInfo span.time {
+    font-size: 0.18rem;
+    margin: 0 0.17rem 0 0.06rem;
+}
+
+.distributionInfo span.startGive {
+    width: 0.61rem;
+    height: 0.26rem;
+    background-color: #ffffff;
+    border-radius: 0.11rem;
+    text-align: center;
+    color: #f932ba;
+    line-height: 0.26rem;
+    margin-left: 0.03rem;
+}
+
+.startStart {
+    height: 0.24rem;
+    display: flex;
+    line-height: 0.24rem;
+    margin-top: 0.21rem;
+
+
+}
+
+.startStart .starList {
+    width: 1.56rem;
+    height: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.startStart .starList li.star {
+    width: 0.24rem;
+    height: 0.23rem;
+
+
+}
+
+.startStart .starList li.star img {
+    width: 0.24rem;
+    height: 0.23rem;
+    display: block;
+}
+
+.startStart .starNumber {
+    display: block;
+    margin-left: 0.15rem;
+
+}
+
+/* header*/
+.publicNotice {
+    width: 7.02rem;
+    height: 0.23rem;
+    margin: 0.15rem auto 0.28rem;
+    font-size: 0.22rem;
+    color: #575757;
+    text-align: center;
+}
+
+/*publicNotice*/
+.button {
+    width: 2.88rem;
+    height: 0.48rem;
+    margin: 0 auto;
+    background-color: #ebe9e9;
+    border-radius: 0.24rem;
+    border: solid 0.02rem #616161;
+    display: flex;
+    align-items: center;
+    font-size: 0.26rem;
+    margin-bottom: 0.32rem;
+
+}
+
+.button .orderButton {
+    width: 1.38rem;
+    height: 0.35rem;
+    text-align: center;
+    line-height: 0.33rem;
+    margin-left: 0.07rem;
+    color: #484747;
+
+}
+
+.button .click {
+    background-color: #f933ba;
+    border-radius: 0.18rem;
+    border: solid 0.01rem #ffffff;
+    color: #fff;
+}
+
+.button .evaluateButton {
+    width: 1.38rem;
+    height: 0.35rem;
+    text-align: center;
+    line-height: 0.33rem;
+    margin-right: 0.07rem;
+    color: #484747;
+}
+
+/* orderButton*/
+.order {
+    width: 100%;
+    height:12.5rem;
+    background: #f8f7f7;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 0.24rem;
+}
+
+.order .orderType {
+    width: 1.78rem;
+    height: 100%;
+    background-color: #4d005d;
+}
+
+.order .orderType .orderTypeList {
+    width: 1.3rem;
+    margin: 1.5rem auto 0;
+}
+
+.order .orderType .orderTypeList .orderTypeItem {
+    width: 1.3rem;
+    height: 0.41rem;
+    border-radius: 0.21rem;
+    border: solid 0.02rem #f840bf;
+    font-size: 0.24rem;
+    color: #f840bf;
+    text-align: center;
+    line-height: 0.37rem;
+    margin-top: 0.5rem;
+}
+
+.order .orderType .orderTypeList .click {
+    background-color: #f840bf;
+    color: #fff;
+}
+
+.order .orderContent {
+    width: 5rem;
+    margin-left: 0.28rem;
+
+}
+
+.order .orderContent .orderItem {
+    width: 5.19rem;
+    height: 1.62rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.02rem 0.21rem 0 rgba(187, 185, 187, 0.65);
+    border-radius: 0.15rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    margin-top: 0.2rem;
+}
+
+.order .orderContent .orderItem:first-child {
+    margin-top: 0.31rem;
+}
+
+.orderContent .orderItem .img {
+    width: 1.22rem;
+    height: 1.22rem;
+    margin-left: 0.36rem;
+    border-radius: 0.07rem;
+}
+
+.orderContent .orderItem .img img {
+    width: 1.22rem;
+    height: 1.22rem;
+}
+
+.orderContent .orderItem .orderItemInfo {
+    width: 2.5rem;
+    height: 1.22rem;
+    margin-left: 0.07rem;
+}
+
+.orderContent .orderItem .orderItemInfo .name {
+    display: block;
+    font-size: 0.28rem;
+    color: #5a5a5a;
+    line-height: 0.27rem;
+    width: 2.6rem;
+}
+
+.orderContent .orderItem .orderItemInfo ul.star {
+    display: flex;
+    width: 1.22rem;
+    justify-content: space-between;
+    margin-top: 0.06rem;
+    margin-bottom: 0.17rem;
+}
+
+.orderContent .orderItem .orderItemInfo ul.star li {
+    height: 0.18rem;
+    width: 0.18rem;
+}
+
+.orderContent .orderItem .orderItemInfo ul.star li img {
+    height: 0.18rem;
+    width: 0.18rem;
+    display: block;
+}
+
+.orderContent .orderItem .orderItemInfo .price {
+    display: block;
+    color: #f83dbf;
+    font-size: 0.26rem;
+    margin-bottom: 0.06rem;
+    line-height: 0.19rem;
+    height: 0.19rem;
+
+}
+
+.orderContent .orderItem .orderItemInfo .buyNumberBox {
+    display: flex;
+    height: 0.16rem;
+}
+
+.orderContent .orderItem .orderItemInfo .buyNumberBox .buyNumberImg {
+    display: block;
+    width: 0.08rem;
+    height: 0.08rem;
+    background-color: #f83dbf;
+    border: solid 0.02rem rgba(252, 106, 207, 0.63);
+    border-radius: 50%;
+    margin-top: 0.04rem;
+}
+
+.orderContent .orderItem .orderItemInfo .buyNumberBox .buyNumber {
+    display: block;
+    color: #bdbbbb;
+    font-size: 0.23rem;
+    line-height: 0.16rem;
+    margin-left: 0.08rem;
+
+}
+
+.orderContent .orderItem .decrease {
+    width: 0.46rem;
+    height: 0.46rem;
+    background: #f931ba;
+    border-radius: 50%;
+    border: solid 0.03rem rgba(252, 106, 207, 0.63);
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    position: absolute;
+    right: 0.96rem;
+}
+
+.orderContent .orderItem .number {
+    display: block;
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    right: 0.77rem;
+}
+
+.orderContent .orderItem .add{
+    width: 0.46rem;
+    height: 0.46rem;
+    background: #f931ba;
+    border-radius: 50%;
+    border: solid 0.03rem  rgba(252, 106, 207, 0.63);
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+    position: absolute;
+    right: 0.24rem;
+}
+
+/* order*/
+.tab {
+    width:100%;
+    height: 0.98rem;
+    background:rgba(255,255,255,0.97);
+    margin: 0 auto;
+    box-shadow: 0 -0.02rem 0.21rem 0 rgba(187, 185, 187, 0.75);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.tabContent {
+    width: 7.02rem;
+    height: 0.98rem;
+    margin: 0 auto;
+}
+
+.tab .cartImg {
+    width: 0.72rem;
+    height: 0.72rem;
+    border-radius: 50%;
+    background-image: linear-gradient(0deg,
+    #f842c1 0%,
+    #f773d2 100%);
+    float: left;
+    margin-right: 0.27rem;
+    margin-top: 0.13rem;
+}
+
+.tab .cartImg img {
+    width: 0.44rem;
+    height: 0.42rem;
+    display: block;
+    margin: 0.165rem auto;
+
+}
+
+.tab .cartInfo {
+    height: 0.5rem;
+    float: left;
+    margin-top: 0.245rem;
+}
+.tab .cartInfo .cartInfoMoney{
+    display: flex;
+    height: 0.16rem;
+    margin-top: 0.11rem;
+}
+.tab .cartInfo .cartInfoMoney .decoration {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #f83dbf;
+    border: solid 0.02rem rgba(252, 106, 207, 0.63);
+    border-radius: 50%;
+    margin-top: 0.03rem;
+}
+.tab .cartInfo .cartInfoMoney .money{
+    display: block;
+    color: #3a3a3a;
+    font-size: 0.22rem;
+    line-height: 0.16rem;
+    opacity: 0.95;
+    margin:0 0.05rem 0 0.07rem;
+}
+.tab .cartInfo .cartInfoMoney .rmb{
+    display: block;
+    font-size: 0.2rem;
+    color: #f844c2;
+    opacity: 0.95;
+    line-height: 0.14rem;
+}
+
+
+.tab .cartInfo .deliverFee {
+    display: block;
+    color: #848383;
+    font-size: 0.2rem;
+    line-height: 0.19rem;
+    margin-top: 0.04rem;
+}
+
+.toOrder {
+    width: 1.53rem;
+    height: 0.56rem;
+    background-image: linear-gradient(90deg,
+    #f778d4 0%,
+    #f83ebf 100%);
+    border-radius: 0.28rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.56rem;
+    float: right;
+    margin-top: 0.21rem;
+}
+.toOrder a{
+    color: #fff;
+}
+/*tab*/

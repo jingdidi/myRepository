@@ -1,0 +1,458 @@
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑","Microsoft Sans Serif";
+}
+.bigDiv{
+    width: 100%;
+    background-image: linear-gradient(90deg,
+    #f77ad5 0%,
+    #f855c7 59%,
+    #f92fb9 100%);
+}
+.bigDiv .content{
+    width: 7.02rem;
+    margin: 0 auto;
+}
+.nav{
+    height: 0.98rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .back {
+    display: block;
+}
+.nav .back img{
+    display: block;
+    width: 0.21rem;
+    height: 0.32rem;
+}
+.nav span{
+    font-size: 0.28rem;
+    color: #f7f6f6;
+}
+.nav a .edit {
+    width: 0.45rem;
+    height: 0.45rem;
+    background: #fff;
+    border-radius: 50%;
+    padding: 0.08rem 0;
+}
+.nav a .edit img {
+    display: block;
+    width: 0.29rem;
+    height: 0.29rem;
+    margin: 0 auto;
+}
+/* nav */
+.addGoods {
+    height: 3.9rem;
+   background-color: #f8f8f8;;
+}
+.addGoods .topDecoration {
+    height: 0.06rem;
+    background-color: #f92fb9;
+}
+.addGoods  .goodsContent{
+    height: 3.84rem;
+    padding: 0.47rem 0.22rem;
+}
+.addGoods  .goodsContent li.line{
+    width: 6.6rem;
+    height: 0.01rem;
+    border: solid 0.01rem #000000;
+    opacity: 0.05;
+    margin: 0.15rem 0;
+}
+.addGoods  .goodsContent li.goodsItem{
+    display: flex;
+    align-items: center;
+}
+.addGoods  .goodsContent .goodsItem img{
+    display: block;
+    width:1.18rem;
+    height: 1.18rem;
+}
+.addGoods  .goodsContent .goodsItem .nameAndNumber{
+    margin-left: 0.2rem;
+}
+.addGoods  .goodsContent .goodsItem .nameAndNumber span.name{
+    display: block;
+    font-size: 0.28rem;
+    color: #010101;
+    opacity: 0.8;
+    width: 2.21rem;
+}
+.addGoods  .goodsContent .goodsItem .nameAndNumber .number{
+    display: flex;
+    margin-top: 0.2rem;
+}
+.addGoods  .goodsContent .goodsItem .nameAndNumber .number span{
+    display: block;
+}
+.addGoods  .goodsContent .goodsItem .nameAndNumber .number .decrease {
+    width: 0.46rem;
+    height: 0.46rem;
+    background: #f931ba;
+    border-radius: 50%;
+    border: solid 0.03rem rgba(252, 106, 207, 0.63);
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+}
+
+.addGoods  .goodsContent .goodsItem .nameAndNumber .number .goodsNumber {
+    display: block;
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 0 0.23rem;
+    line-height:0.46rem;
+}
+
+.addGoods  .goodsContent .goodsItem .nameAndNumber .number .add{
+    width: 0.46rem;
+    height: 0.46rem;
+    background: #f931ba;
+    border-radius: 50%;
+    border: solid 0.03rem  rgba(252, 106, 207, 0.63);
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fff;
+}
+.addGoods  .goodsContent .goodsItem .price{
+    display: flex;
+}
+.addGoods  .goodsContent .goodsItem .price span{
+    display: block;
+    font-size: 0.24rem;
+    color: #f938bc;
+    opacity: 0.9;
+    line-height: 0.16rem;
+}
+.addGoods  .goodsContent .goodsItem .price span.priceNumber{
+    color: #010101;
+    opacity: 0.8;
+    font-size: 0.28rem;
+    margin-left: 0.39rem;
+}
+.addGoods  .goodsContent .goodsItem ul.decoration {
+    margin: 0 0.1rem 0 0.75rem;
+}
+.addGoods  .goodsContent .goodsItem ul.decoration li{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    margin-top: 0.01rem;
+}
+.addGoods  .goodsContent .goodsItem .realPrice span{
+    display: block;
+    font-size: 0.24rem;
+    color: #f938bc;
+}
+.addGoods  .goodsContent .goodsItem .realPrice .realPriceContent{
+    display: flex;
+}
+
+.addGoods  .goodsContent .goodsItem .realPrice .realPriceContent span{
+    font-size: 0.28rem;
+}
+.addGoods  .goodsContent .goodsItem .realPrice .realPriceContent span.realPriceNumber {
+    color: rgba(0,0,0,0.8);
+}
+/*addGoods */
+.totalPrice{
+    height: 0.31rem;
+    margin: 0.45rem 0 0.22rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.11rem;
+}
+.totalPrice span{
+    font-size: 0.32rem;
+    color: #fff;
+}
+.totalPrice .totalPriceContent span{
+    font-size: 0.38rem;
+    color: rgba(255,255,255,0.8);
+}
+.totalPrice .totalPriceContent span.RMB{
+    font-size: 0.3rem;
+}
+.system{
+    font-size: 0.26rem;
+    color: #fff;
+    padding: 0 0.11rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*totalPrice*/
+.orderInfo{
+    margin-top: 0.45rem;
+    background-color: #f8f8f8;
+    padding: 0 0.32rem 0 0.23rem;
+    height: 11.35rem;
+}
+.orderInfo .orderItem{
+    height: 1.48rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.orderInfo .orderItem .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #f84cc4;
+    border: solid 0.03rem  rgba(252, 106, 207, 0.63);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem .orderNumber{
+    font-size: 0.38rem;
+    color: #f938bc;
+    opacity: 0.9;
+    padding: 0 0.35rem;
+}
+.orderInfo  .line{
+    width: 5.85rem;
+    height: 0.01rem;
+    background-color: #000000;
+    opacity: 0.05;
+    margin: 0 auto;
+}
+.orderInfo .orderItem1{
+    height: 1.48rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderInfo .orderItem1 .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem1 .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #ff4436;
+    border: solid 0.03rem rgba(255, 68, 54, 0.5);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem1 .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem1 .giveButton{
+    width: 1.57rem;
+    height: 0.55rem;
+    background-color: #f84cc4;
+    border-radius:0.28rem;
+    border: solid 0.04rem rgba(247, 122, 213, 0.5);
+    text-align: center;
+    line-height:0.47rem ;
+    color: #f8f8f8;
+    opacity: 0.9;
+    font-size: 0.28rem;
+}
+.orderInfo .orderItem2{
+    height: 1.48rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderInfo .orderItem2 .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem2 .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #3f62fd;
+    border: solid 0.03rem rgba(63, 98, 253, 0.5);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem2 .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem2 .giveButton{
+    width: 1.57rem;
+    height: 0.55rem;
+    border-radius:0.28rem;
+    border: solid 0.03rem rgba(185, 184, 185, 0.5);
+    text-align: center;
+    line-height:0.47rem ;
+    color: #f938bc;
+    opacity: 0.9;
+    font-size: 0.34rem;
+}
+.orderInfo .orderItem3{
+    height: 1.48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderInfo .orderItem3 .left .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem3 .left .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #e246fe;
+    border: solid 0.03rem rgba(226, 70, 254, 0.5);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem3 .left .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem3 .left .address{
+    font-size: 0.28rem;
+    color: #000000;
+    opacity: 0.8;
+    padding: 0 0.35rem;
+}
+.orderInfo .orderItem3 .right{
+    width: 0.58rem;
+    height: 0.58rem;
+    background-color: #dbdbdb;
+    border: solid 0.02rem rgba(150, 149, 150, 0.56);
+    opacity: 0.75;
+    border-radius: 50%;
+}
+.orderInfo .orderItem3 .right img{
+    display: block;
+    width:0.2rem;
+    height:0.32rem;
+    margin:0 auto;
+    margin-top: 0.13rem;
+}
+.orderInfo .orderItem4{
+    height: 1.48rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderInfo .orderItem4 .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem4 .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #ef001e;
+    border: solid 0.03rem rgba(239, 0, 30, 0.5);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem4 .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem4 .giveButton{
+    width: 1.57rem;
+    height: 0.55rem;
+    border-radius:0.28rem;
+    border: solid 0.03rem rgba(185, 184, 185, 0.5);
+    text-align: center;
+    line-height:0.47rem ;
+    color: #f930b9;
+    opacity: 0.9;
+    font-size: 0.28rem;
+}
+.orderInfo .orderItem5{
+    height: 1.48rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderInfo .orderItem5 .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem5 .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #feb751;
+    border: solid 0.03rem rgba(254, 183, 81, 0.5);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem5 .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem5 .giveButton{
+}
+.orderInfo .orderItem5 .giveButton span.name{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.6);
+}
+.orderInfo .orderItem5 .giveButton span.phone{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+}
+.orderInfo .orderItem6{
+    height: 1.48rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderInfo .orderItem6 .type{
+    display: flex;
+    align-items: center;
+}
+.orderInfo .orderItem6 .type .decoration{
+    width: 0.21rem;
+    height: 0.21rem;
+    background-color: #f84cc4;
+    border: solid 0.03rem  rgba(252, 106, 207, 0.63);
+    border-radius: 50%;
+    margin-right: 0.14rem;
+}
+.orderInfo .orderItem6 .type .nameType{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.orderInfo .orderItem6 .giveButton{
+    display: flex;
+}
+.orderInfo .orderItem6 .giveButton span.taste{
+    display: block;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.6);
+}
+.orderInfo .orderItem6 .giveButton img{
+    display: block;
+    width: 0.17rem;
+    height: 0.26rem;
+    margin-left: 0.12rem;
+}
+.orderInfo .payButton{
+    width: 1.88rem;
+    height: 0.57rem;
+    background-image: linear-gradient(90deg,
+    #f772d2 0%,
+    #f83abd 100%);
+    border-radius: 0.28rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.57rem;
+    margin: 0 auto;
+}
+.orderInfo .payButton a{
+    color: #f8f8f8;
+}
+/*orderInfo*/

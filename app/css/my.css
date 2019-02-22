@@ -1,0 +1,372 @@
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑", "Microsoft Sans Serif";
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(90deg,
+    #f77ad5 0%,
+    #f855c7 59%,
+    #f92fb9 100%);
+}
+
+.header .headerContent {
+    height: 7.07rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .headerContent img {
+    display: block;
+    width: 100%;
+    height: 7.07rem;
+}
+
+.header .headerContent .headerInfo {
+    width: 7.02rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.headerInfo .headerImgBox {
+    width: 2.37rem;
+    height: 2.67rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerInfo .headerImgBox img.headerDecoration {
+    display: block;
+    width: 2.37rem;
+    height: 2.51rem;
+    margin-top: 0.19rem;
+}
+
+.headerInfo .headerImgBox .headerImg {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #f8fcff;
+    border: solid 0.03rem #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.31rem;
+}
+
+.headerInfo .headerImgBox .headerImg img {
+    display: block;
+    width: 1.72rem;
+    height: 1.72rem;
+    border-radius: 50%;
+
+}
+
+.header .headerContent .headerInfo .myInfo {
+    text-align: center;
+}
+
+.header .headerContent .headerInfo .myInfo p {
+    display: block;
+}
+
+.header .headerContent .headerInfo .myInfo p.userName {
+    font-size: 0.4rem;
+    color: #fff;
+}
+
+.header .headerContent .headerInfo .myInfo p.sign {
+    font-size: 0.32rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0.14rem 0 0.11rem 0;
+}
+
+.header .headerContent .headerInfo .star {
+    display: flex;
+    width: 1.24rem;
+    margin: 0 auto;
+}
+
+.header .headerContent .headerInfo .star li {
+    width: 0.36rem;
+    height: 0.32rem;
+    margin-right: 0.08rem;
+
+}
+
+.header .headerContent .headerInfo .star li:last-child {
+    margin-right: 0;
+}
+
+.header .headerContent .headerInfo .star li img {
+    display: block;
+    width: 0.36rem;
+    height: 0.32rem;
+}
+
+.header .headerContent .headerInfo .editBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.43rem;
+}
+
+.header .headerContent .headerInfo .editBox .setting {
+    width: 0.91rem;
+    height: 0.91rem;
+    background-color: #db7dfe;
+    margin-right: 0.37rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .headerContent .headerInfo .editBox .setting img {
+    display: block;
+    width: 0.55rem;
+    height: 0.55rem;
+}
+
+.header .headerContent .headerInfo .editBox .editMy {
+    width: 0.91rem;
+    height: 0.91rem;
+    background-color: #db7dfe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .headerContent .headerInfo .editBox .editMy img {
+    display: block;
+    width: 0.65rem;
+    height: 0.54rem;
+}
+
+/*header*/
+.aboutMy {
+    width:100%;
+    height: 7.5rem;
+    background: #fdfdfd;
+    position: relative;
+}
+
+.aboutMy .title {
+    width: 3.15rem;
+    height: 1.44rem;
+    background-color: #fdfdfd;
+    border-radius: 0.72rem;
+    position: absolute;
+    top: -1.2rem;
+    left: 1.935rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutMy .title .titleContent {
+    width: 2.64rem;
+    height: 1.03rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(249, 75, 195, 0.3);
+    border-radius: 0.51rem;
+    text-align: center;
+    line-height: 1.03rem;
+    font-size: 0.38rem;
+    color: #cf4dff;
+}
+
+.aboutMy .aboutMyContent {
+    width: 7.02rem;
+    position: relative;
+    top: 1.1rem;
+    margin: 0 auto;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem {
+    width: 100%;
+    height: 0.85rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.03rem 0.2rem 0 rgba(207, 206, 207, 0.55);
+    border-radius: 0.1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.25rem;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .imgBox {
+    width: 0.53rem;
+    height: 0.53rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.08rem 0 rgba(193, 193, 193, 0.35);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMy .aboutMyContent .aboutMyItem .imgBox img{
+    display: block;
+    width: 0.31rem;
+    height: 0.28rem;
+}
+.aboutMy .aboutMyContent .aboutMyItem .collect img{
+    display: block;
+    width: 0.34rem;
+    height: 0.3rem;
+}
+.aboutMy .aboutMyContent .aboutMyItem .service img{
+    display: block;
+    width: 0.34rem;
+    height: 0.33rem;
+}
+.aboutMy .aboutMyContent .aboutMyItem .address img{
+    display: block;
+    width: 0.31rem;
+    height: 0.31rem;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .itemType {
+    font-size: 0.3rem;
+    color: rgba(0, 0, 0, 0.65);
+    margin-left: 0.36rem;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .button {
+    width: 0.53rem;
+    height: 0.29rem;
+    background-image: linear-gradient(0deg,
+    #cf4dff 0%,
+    #e396ff 100%);
+    border-radius: 0.15rem;
+    text-align: center;
+    line-height: 0.29rem;
+    font-size: 0.24rem;
+    color: #fff;
+    position: absolute;
+    right: 0.25rem;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .collectButton {
+    background-image: linear-gradient(0deg,
+    #f934bb 0%,
+    #f778d4 100%);
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .serviceButton {
+    width: 0.98rem;
+    height: 0.54rem;
+    background-color: #a297f8;
+    border-radius: 0.27rem;
+    position: absolute;
+    right: 0.25rem;
+    text-align: center;
+    line-height: 0.54rem;
+    font-size: 0.26rem;
+    color: #fff;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .addressButton {
+    display: flex;
+    position: absolute;
+    right: 0.25rem;
+}
+
+.aboutMy .aboutMyContent .aboutMyItem .addressButton li {
+    width: 0.07rem;
+    height: 0.07rem;
+    background-color: #c5c3c3;
+    border-radius: 50%;
+    margin-left: 0.04rem;
+}
+
+/*aboutMy*/
+.tab {
+    width:100%;
+    height: 0.98rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.03rem 0.21rem 0
+    rgba(201, 200, 200, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.tabContent {
+    width: 7.02rem;
+    padding: 0 0.81rem;
+    height: 0.82rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.tabIconItem {
+    width: 0.55rem;
+    height: 0.82rem;
+    text-align: center;
+
+}
+.tabIconItem a.tabIcon{
+    display: block;
+    width: 0.55rem;
+    height: 0.55rem;
+
+}
+.tabIcon {
+    width: 0.55rem;
+    height: 0.55rem;
+    background-color: #ede9ed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.55rem;
+    text-align: center;
+
+}
+.myImg{
+    background-color:#fbd1f7
+}
+.icon-shouye{
+    color: #cdcdcd;
+    font-size: 0.38rem;
+
+
+}
+.icon-faxian{
+    font-size: 0.39rem;
+    color: #cdcdcd;
+
+
+}
+.icon-dingdan{
+    font-size: 0.34rem;
+    color: #cdcdcd;
+}
+.icon-wode{
+    font-size: 0.34rem;
+    color: #f940bf;
+}
+.tabIconItem span {
+    display: block;
+    font-size: 0.18rem;
+    color: #9d9898;
+    margin-top: 0.04rem;
+}
+.tabIconItem a.sy{
+    display: block;
+
+}
+.tabIconItem span.my{
+    color: #f940bf;
+}
+
+/* tab*/

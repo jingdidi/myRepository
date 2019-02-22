@@ -1,0 +1,225 @@
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑","Microsoft Sans Serif";
+}
+
+.header {
+    width: 100%;
+    height: 1.56rem;
+    background-image: linear-gradient(90deg,
+    #f77ad5 0%,
+    #f855c7 59%,
+    #f92fb9 100%);
+}
+
+.headerContent {
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .headerContent .back {
+    height: 0.88rem;
+}
+
+.header .headerContent .back a {
+    display: block;
+}
+
+.header .headerContent .back img {
+    width: 0.21rem;
+    height: 0.32rem;
+    margin-top: 0.28rem;
+}
+
+.header .headerContent span {
+    display: block;
+    font-size: 0.4rem;
+    color: #f7f6f6;
+    margin-left: 0.1rem;
+}
+
+/* header*/
+.payTotal {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.1rem;
+}
+
+.payTotal .hint {
+    display: flex;
+    align-items: center;
+
+}
+
+.payTotal .hint .decoration {
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #f777d4;
+    border-radius: 50%;
+    margin-right: 0.04rem;
+}
+
+.payTotal .hint span {
+    display: block;
+    font-size: 0.32rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 0.09rem;
+}
+
+.payTotal .price {
+    display: flex;
+    align-items: center;
+}
+
+.payTotal .price .RMB {
+    font-size: 0.3rem;
+    color: #f772d2;
+    opacity: 0.5;
+}
+
+.payTotal .price span {
+    display: block;
+    font-size: 0.38rem;
+    color: #f933bb;
+    margin-left: 0.09rem;
+}
+
+/* payTotal*/
+.bigDiv {
+    width: 100%;
+}
+
+.payType {
+    display: flex;
+    padding: 0 0.1rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 7.02rem;
+}
+
+.payType .zhifubao, .payType .weixin {
+    width: 3.28rem;
+    height: 1.79rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.02rem 0.2rem 0 rgba(174, 173, 173, 0.2);
+    display: flex;
+    align-items: center;
+    padding-left: 0.25rem;
+
+}
+
+.payType .zhifubao a, .payType .weixin a {
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    margin-right: 0.13rem;
+}
+
+.payType .zhifubao a img, .payType .weixin a img {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.payType .zhifubao .name, .payType .weixin .name {
+
+}
+
+.payType .zhifubao .name .zhongName, .payType .weixin .name .zhongName {
+    font-size: 0.26rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.payType .zhifubao .name .yingName, .payType .weixin .name .yingName {
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+/*payType*/
+.payChoose {
+    height: 9.2rem;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0.01rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+    margin-top: -0.31rem;
+    padding-top: 0.31rem;
+    position: relative;
+    z-index: 999;
+}
+
+.payChoose .payChooseContent {
+    padding: 0 0.1rem;
+}
+
+.payChoose .payChooseContent .payHint {
+    height: 1.96rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payChoose .payChooseContent .payHint img{
+    display: block;
+    width: 5.75rem;
+    height: 1.32rem;
+}
+
+.payChoose .payChooseContent .choose {
+    display: flex;
+    justify-content: space-between;
+}
+.payChoose .payChooseContent .choose .chooseItem{
+    width: 3.32rem;
+    height: 3.28rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.payChoose .payChooseContent .choose .chooseItem .imgBox {
+    width: 1.38rem;
+    height: 1.38rem;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg,
+    #f774d3 0%,
+    #f934ba 100%);
+    box-shadow: 0 0.04rem 0.16rem 0 rgba(249, 56, 188, 0.8);
+    margin: 0 auto;
+}
+.payChoose .payChooseContent .choose .chooseItem .imgBox a {
+    width: 1.38rem;
+    height: 1.38rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payChoose .payChooseContent .choose .chooseItem .imgBox a.bankImg img{
+    width: 0.65rem;
+    height: 0.45rem;
+}
+.payChoose .payChooseContent .choose .chooseItem .imgBox a.qqImg img{
+    width: 0.57rem;
+    height: 0.57rem;
+}
+
+.payChoose .payChooseContent .choose .chooseItem span{
+    display: block;
+}
+
+.payChoose .payChooseContent .choose .chooseItem span.zhongName{
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.65);
+    margin: 0.19rem 0 0.06rem 0;
+    text-align: center;
+}
+
+.payChoose .payChooseContent .choose .chooseItem span.yingName{
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/*payChoose*/

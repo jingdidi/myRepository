@@ -1,0 +1,208 @@
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑","Microsoft Sans Serif";
+}
+
+.header {
+    width: 100%;
+    height: 1.56rem;
+    background-image: linear-gradient(90deg,
+    #f77ad5 0%,
+    #f855c7 59%,
+    #f92fb9 100%);
+}
+
+.headerContent {
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .headerContent .back {
+    height: 0.88rem;
+}
+
+.header .headerContent .back a {
+    display: block;
+}
+
+.header .headerContent .back img {
+    width: 0.21rem;
+    height: 0.32rem;
+    margin-top: 0.28rem;
+}
+
+.header .headerContent span {
+    display: block;
+    font-size: 0.4rem;
+    color: #f7f6f6;
+    margin-left: 0.1rem;
+}
+
+/* header*/
+.payTotal {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.1rem;
+}
+
+.payTotal .hint {
+    display: flex;
+    align-items: center;
+
+}
+
+.payTotal .hint .decoration {
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #f777d4;
+    border-radius: 50%;
+    margin-right: 0.04rem;
+}
+
+.payTotal .hint span {
+    display: block;
+    font-size: 0.32rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 0.09rem;
+}
+
+.payTotal .price {
+    display: flex;
+    align-items: center;
+}
+
+.payTotal .price .RMB {
+    font-size: 0.3rem;
+    color: #f772d2;
+    opacity: 0.5;
+}
+
+.payTotal .price span {
+    display: block;
+    font-size: 0.38rem;
+    color: #f933bb;
+    margin-left: 0.09rem;
+}
+
+/* payTotal*/
+.cardImg {
+    width: 7.02rem;
+    height: 3.22rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cardImg img {
+    display: block;
+    width: 6.43rem;
+    height: 3.22rem;
+}
+
+.bigDiv.decoration {
+    height: 1.3rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0.01rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+    margin-top: -0.93rem;
+    position: relative;
+    z-index: 999;
+}
+
+/*cardImg*/
+.pwdBox {
+    height: 8.46rem;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(157, 157, 157, 0.23);
+    margin-top: -0.93rem;
+    padding-top: 1.5rem;
+    background: rgba(255,255,255,0.4);
+    position: relative;
+    z-index: 999;
+}
+
+.pwdBox .pwd {
+    height: 2.39rem;
+}
+
+.pwdBox .pwd .pwdContent {
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.59rem;
+}
+
+.pwdBox .pwd .pwdContent .inputPwd {
+    display: flex;
+    width: 3.85rem;
+    justify-content: space-between;
+}
+
+.pwdBox .pwd .pwdContent .inputPwd input {
+    display: block;
+    width: 0.49rem;
+    text-align: center;
+    border: none;
+}
+
+.pwdBox .pwd .pwdContent .inputPwd input:focus {
+    outline: none;
+}
+
+.pwdBox .pwd .pwdContent .inputDecoration {
+    display: flex;
+    width: 3.85rem;
+    justify-content: space-between;
+    margin-top: 0.18rem;
+}
+
+.pwdBox .pwd .pwdContent .inputDecoration li {
+    width: 0.49rem;
+    height: 0.08rem;
+    background-color: #d9d8d8;
+    border-radius: 0.04rem;
+
+
+}
+
+.pwdBox .key {
+    width: 100%;
+    height: 4.28rem;
+    background: #dcdfe6;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.pwdBox .key .keyContent {
+    width: 7.5rem;
+    height: 4.28rem;
+    padding-top: 0.08rem;
+    padding-bottom: 0.02rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pwdBox .key .keyContent .oneKey {
+    width: 2.35rem;
+    height: 0.93rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.93rem;
+    margin-left: 0.1rem;
+    font-size: 0.4rem;
+
+}
+.pwdBox .key .keyContent .oneKey:nth-last-child(2){
+    margin-left: 2.55rem;
+}
+.pwdBox .key .keyContent .oneKey:last-child{
+    background: none;
+}
+
+/*pwdBox*/

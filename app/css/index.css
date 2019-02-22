@@ -1,0 +1,551 @@
+.container {
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑","Microsoft Sans Serif";
+}
+.header {
+    width: 100%;
+    height: 0.88rem;
+    background-image: linear-gradient(90deg,
+    #f77ad5 0%,
+    #f855c7 59%,
+    #f92fb9 100%);
+}
+
+.topBar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imgPosition {
+    width: 0.3rem;
+    height: 0.44rem;
+}
+
+.position {
+    color: #fff;
+    margin-left: 0.15rem;
+    margin-right: 1.32rem;
+}
+
+.serachBox {
+    width: 4.7rem;
+    height: 0.44rem;
+    background: #fb95dc;
+    border-radius: 0.22rem;
+    border: 0.03rem solid #fff;
+    line-height: 0.38rem;
+}
+
+.searchInput {
+    border: none;
+    background: none;
+    margin-left: 0.20rem;
+}
+
+.search {
+    width: 0.26rem;
+    height: 0.23rem;
+    float: right;
+    margin-right: 0.21rem;
+    margin-top: 0.075rem;
+}
+
+/* header*/
+.banner {
+    width: 7.02rem;
+    height: 2.99rem;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    position: relative;
+}
+
+.imgBox {
+    width: 100%;
+    height: 2.71rem;
+    position: relative;
+}
+
+.imgBox li {
+    width: 100%;
+    height: 2.71rem;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgBox li img {
+    display: block;
+    width: 7.02rem;
+    height: 2.71rem;
+}
+
+.imgBox li.active {
+    z-index: 999;
+}
+
+.pagerBox {
+    width: 0.69rem;
+    height: 0.13rem;
+    position: absolute;
+    left: 3.18rem;
+    bottom: 0.33rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.pagerBox li {
+    width: 0.13rem;
+    height: 0.13rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.pagerBox li.active {
+    background: #3188ff;
+}
+
+/* banner*/
+.category {
+    width: 6.2rem;
+    height: 3.38rem;
+    margin: 0 auto;
+}
+
+.category .categoryContent {
+    width: 6.2rem;
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoryBox {
+    width: 0.95rem;
+    height: 1.38rem;
+    margin-right: 0.8rem;
+}
+
+.categoryBox:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.categoryBox img {
+    display: block;
+    width: 0.95rem;
+    height: 0.95rem;
+}
+
+.categoryBox span {
+    display: block;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0.15rem 0;
+    text-align: center;
+}
+
+.categorySlideBox {
+    width: 1.25rem;
+    height: 0.26rem;
+    margin: 0 auto;
+    margin-top: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorySlideBox li {
+    width: 0.22rem;
+    height: 0.22rem;
+    background-color: #ffffff;
+    border: solid 0.01rem rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+
+.categorySlideBox li.active {
+    background: #eb9fab;
+}
+
+/* nav*/
+.recommendTop {
+    width: 7.02rem;
+    height: 12.55rem;
+    margin: 0.6rem auto 0.6rem;
+}
+
+.recommendTop .bigTitle {
+    margin: 0 auto;
+    width: 2.2rem;
+    height: 0.85rem;
+    font-size: 0.34rem;
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+
+}
+
+.recommendTop .bigTitle img {
+    width: 2.2rem;
+    height: 0.85rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.recommendTop .bigTitle p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.2rem;
+    height: 0.54rem;
+    text-align: center;
+    line-height: 0.54rem;
+}
+
+.recommendTopList {
+    width: 7.02rem;
+    height: 9.7rem;
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.recommendTopItem {
+    width: 7.02rem;
+    height: 3.76rem;
+}
+
+.recommendTopItem .imgBox {
+    display: block;
+    width: 7.02rem;
+    height: 3.76rem;
+
+}
+
+.recommendTopItem a img {
+    width: 7.02rem;
+    height: 3.76rem;
+}
+
+.recommendTopItem .title {
+    display: block;
+    font-size: 0.34rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0.3rem 0.08rem 0 0;
+}
+
+.recommendTopItem span {
+    font-size: 0.26rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.buyInfo {
+    width: 7.02rem;
+    height: 0.35rem;
+    margin-top: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyInfoBox {
+    width: 2.59rem;
+    height: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collect, .buy {
+    width: 1.07rem;
+    height: 0.28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyInfo .collect img, .buyInfo .buy img {
+    height: 0.28rem;
+    width: 0.28rem;
+}
+
+.collect span, .buy span {
+    display: block;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.24rem;
+}
+
+.enter a {
+    display: block;
+}
+
+.enter, .enter a {
+    width: 1.16rem;
+    height: 0.34rem;
+    background-image: linear-gradient(90deg, #f67bd6 0%, #f92cb7 100%);
+    border-radius: 0.17rem;
+    text-align: center;
+    line-height: 0.34rem;
+    color: #fff;
+    font-size: 0.22rem;
+
+}
+/* recommendTop*/
+.recommendBottom {
+    width: 7.02rem;
+    height: 7.38rem;
+    margin: 0 auto 1.5rem;
+}
+
+.recommendBottom .bigTitle {
+    margin: 0 auto;
+    width: 2.2rem;
+    height: 0.85rem;
+    font-size: 0.34rem;
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+
+}
+
+.recommendBottom .bigTitle img {
+    width: 2.2rem;
+    height: 0.85rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.recommendBottom .bigTitle p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.2rem;
+    height: 0.54rem;
+    text-align: center;
+    line-height: 0.54rem;
+}
+
+.recommendBottomList {
+    height: 6.16rem;
+    width: 7.02rem;
+    margin-top: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.recommendBottomItem {
+    width: 7.02rem;
+    height: 1.62rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.recommendBottomItemContent {
+    width: 6.6rem;
+    height: 1.62rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.01rem 0.16rem 0
+    rgba(179, 178, 178, 0.44);
+    border-radius: 0.24rem;
+
+}
+
+.recommendBottomItemContent a {
+    display: block;
+}
+
+.recommendBottomItemContent a {
+    width: 6.6rem;
+    height: 1.62rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.recommendBottomItemContent a img {
+    width: 1.33rem;
+    height: 1.33rem;
+    display: block;
+    margin-left: 0.19rem;
+    margin-right: 0.2rem;
+}
+
+.infoBox {
+    width: 2.83rem;
+    height: 1.33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infoBox p{
+    display: block;
+    color: rgba(0,0,0,0.85);
+    font-size: 0.28rem;
+}
+.infoTopList {
+    width: 2.81rem;
+    height: 0.34rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.infoItem1 {
+    width: 0.78rem;
+    height: 0.34rem;
+    background-image: linear-gradient(90deg,
+    #add6fb 0%,
+    #68b5fb 100%);
+    border-radius: 0.06rem;
+}
+.infoItem2 {
+    width: 0.78rem;
+    height: 0.34rem;
+    background-image: linear-gradient(90deg,
+    #e4b6fb 0%,
+    #d68cfc 100%);
+    border-radius: 0.06rem;
+}
+.infoItem3{
+    border-radius: 0.06rem;
+    width: 0.78rem;
+    height: 0.34rem;
+    background-image: linear-gradient(90deg,
+    #f88edb 0%,
+    #fa46c1 100%);
+}
+.infoBottomList {
+    width: 2.54rem;
+    height: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+}
+.infoBottomList li {
+    width:1.1rem;
+    height: 0.35rem;
+    display: flex;
+    align-items: center;
+}
+.infoBottomList li span {
+    display: block;
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.4);;
+}
+.infoBottomList li img {
+    display: block;
+    height: 0.28rem;
+    width: 0.28rem;
+    margin-left: 0;
+}
+.qiangBuy {
+    width:0.87rem ;
+    height:0.87rem ;
+    position: absolute;
+    right:0;
+    background-image: linear-gradient(90deg,
+    #f895dd 0%,
+    #fa40be 100%);
+    border-radius: 50%;
+    text-align: center;
+    line-height:0.87rem ;
+    font-size: 0.34rem;
+}
+.qiangBuy a {
+    color: #fff;
+}
+/*recommendBottom*/
+.tab {
+    width:100%;
+    height: 0.98rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.03rem 0.21rem 0
+    rgba(201, 200, 200, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.tabContent {
+    width: 7.02rem;
+    padding: 0 0.81rem;
+    height: 0.82rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.tabIconItem {
+    width: 0.55rem;
+    height: 0.82rem;
+    text-align: center;
+
+}
+.tabIconItem a.tabIcon{
+    display: block;
+    width: 0.55rem;
+    height: 0.55rem;
+
+}
+.tabIcon {
+    width: 0.55rem;
+    height: 0.55rem;
+    background-color: #ede9ed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.55rem;
+    text-align: center;
+
+}
+.syImg{
+    background-color:#fbd1f7
+}
+.icon-shouye{
+    color: #f940bf;
+    font-size: 0.38rem;
+
+
+}
+.icon-faxian{
+    font-size: 0.39rem;
+    color: #cdcdcd;
+
+}
+.icon-dingdan{
+    font-size: 0.34rem;
+    color: #cdcdcd;
+}
+.icon-wode{
+    font-size: 0.34rem;
+    color: #cdcdcd;
+}
+.tabIconItem span {
+    display: block;
+    font-size: 0.18rem;
+    color: #9d9898;
+    margin-top: 0.04rem;
+}
+.tabIconItem a.sy{
+    display: block;
+
+}
+.tabIconItem span.sy{
+    color: #f940bf;
+}
+
+/* tab*/

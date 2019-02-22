@@ -1,0 +1,213 @@
+body {
+    font-size: 0.24rem;
+    font-family: "微软雅黑", "Microsoft Sans Serif";
+}
+
+.bigDiv {
+    width: 100%;
+    height: 100%;
+    background: #ffd9dc;
+    padding-bottom: 0.98rem;
+}
+
+.bigDiv .content {
+    width: 7.02rem;
+    margin: 0 auto;
+    padding-top: 0.21rem;
+}
+
+.content .registerButton {
+    width: 0.92rem;
+    height: 0.46rem;
+    border-radius: 0.23rem;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.26rem;
+    margin-bottom: 0.96rem;
+    margin-left: 6.1rem;
+}
+.content .registerButton a{
+    color: rgba(0, 0, 0, 0.7);
+}
+.content .three {
+    width: 7.02rem;
+    height: 9.97rem;
+    background-image: linear-gradient(180deg,
+    #fe62d3 0%,
+    #f7f5f5 15%);
+    border-radius: 0.06rem;
+    padding-top: 0.12rem;
+}
+
+.content .three .two {
+    width: 6.51rem;
+    height: 9.85rem;
+    background-image: linear-gradient(180deg,
+    #fe83dc 0%,
+    #fff 15%);
+    border-radius: 0.06rem;
+    margin: 0 auto;
+
+}
+
+.content .three .two .one {
+    width: 6.08rem;
+    height: 2.72rem;
+    background-image: linear-gradient(180deg,
+    #fe92e0 0%,
+    #fff 30%);
+    border-radius: 0.06rem;
+    margin: 0 auto;
+    box-shadow: 0 0.01rem 0.2rem 0 rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.one img {
+    display: block;
+    width: 2.98rem;
+    height: 2.17rem;
+    margin-top: -1.02rem;
+}
+
+.one .sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.one .sign p {
+    display: block;
+    font-size: 0.38rem;
+    color: rgba(0, 0, 0, 0.85);
+
+}
+
+.one .sign p.yingSign {
+    font-size: 0.32rem;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.two .loginInfo{
+    width: 6.08rem;
+    height: 5.89rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.two .loginInfo .decoration{
+    display: flex;
+
+}
+.two .loginInfo .decoration li{
+    width: 0.13rem;
+    height: 0.13rem;
+    background-color: #fe318d;
+    border-radius: 50%;
+}
+.two .loginInfo .decoration li:last-child{
+    background-color: #a3a3a3;
+    margin-left: 0.06rem;
+}
+.two .loginInfo .userName,.two .loginInfo .pwd{
+    width: 6.08rem;
+    height: 1.19rem;
+    border: solid 0.03rem rgba(0,0,0,0.24);
+    margin-top: 0.46rem;
+    border-radius:0.6rem;
+}
+
+.two .loginInfo .userName{
+    display: flex;
+    align-items: center;
+}
+.two .loginInfo .userName .userImg{
+    width: 0.45rem;
+    height: 0.62rem;
+    margin: 0 0.35rem 0 0.42rem;
+
+}
+.two .loginInfo .userName .userImg img{
+    width: 0.45rem;
+    height: 0.62rem;
+}
+.two .loginInfo .userName input#userName{
+    border: none;
+    font-size: 0.32rem;
+    color:#bcbcbc;
+}
+.two .loginInfo .pwd{
+    margin-top: 0.44rem;
+    display: flex;
+    align-items: center;
+}
+.two .loginInfo .pwd .pwdImg{
+    width: 0.51rem;
+    height: 0.54rem;
+    margin: 0 0.33rem 0 0.4rem;
+}
+.two .loginInfo .pwd .pwdImg img{
+    width: 0.51rem;
+    height: 0.54rem;
+}
+.two .loginInfo .pwd input#pwd{
+    border: none;
+    font-size: 0.32rem;
+    color:#bcbcbc;
+}
+.two .loginInfo .forgetPwd{
+    display: flex;
+    margin-top: 0.41rem;
+
+}
+.two .loginInfo .forgetPwd .wenhao{
+    width: 0.28rem;
+    height: 0.28rem;
+    background-color: #fc5b4f;
+    border-radius: 50%;
+    font-size: 0.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.28rem;
+    margin: 0 0.14rem 0.44rem 0.48rem;
+}
+.two .loginInfo .login{
+    width: 2.43rem;
+    height: 0.55rem;
+    background-color: #7c7c7c;
+    border-radius: 0.28rem;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.55rem;
+}
+.two .loginInfo .login a{
+    display: block;
+    width: 2.43rem;
+    height: 0.55rem;
+    border-radius: 0.28rem;
+    color: rgba(255,255,255,0.73);
+}
+.two .loginInfo  .otherLoginType{
+    font-size: 0.24rem;
+    color: #adadad;
+    text-align: center;
+    margin-top: 0.53rem;
+
+}
+.content .backOne{
+    width: 6.51rem;
+    height: 0.36rem;
+    background: #fa82d9;
+    margin: 0 auto;
+}
+.backOne .backTwo{
+    width: 6.09rem;
+    height: 0.2rem;
+    background: #fe92e0;
+    margin: 0 auto;
+}
