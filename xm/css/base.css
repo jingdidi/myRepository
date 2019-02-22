@@ -1,0 +1,24 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font: 16px/1.5 '微软雅黑', 'Microsoft Sans Serif';
+    color:#333;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+/* 以下可有可无*/
+b,strong,em,i,del,s {
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+}
+img {
+    border: none;
+}
+/* 以上为通用默认样式 */

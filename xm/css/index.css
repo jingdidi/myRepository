@@ -1,0 +1,1351 @@
+@import url(./base.css);
+
+.topBar {
+    height: 40px;
+    background: #333;
+}
+
+.content {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.barNav {
+    /*width: 677px;  */
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+
+.barNav a, .barInfo a, .barCart a {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.barNav a:hover, .barInfo a:hover {
+    color: #fff;
+}
+
+.barCart {
+    width: 120px;
+    height: 100%;
+    float: right;
+    line-height: 40px;
+    background: #424242;
+    text-align: center;
+
+}
+
+.icon-gouwuche {
+    font-size: 20px;
+}
+
+.barCart a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.barCart a:hover {
+    color: #ff6700;
+    background: #fff;
+}
+
+.barInfo {
+    width: 142px;
+    height: 100%;
+    float: right;
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+/* topBar*/
+.header {
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.miLogo {
+    width: 55px;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+}
+
+.miLogo .icon-CombinedShape {
+    color: #ff6700;
+    font-size: 50px;
+}
+
+.header .title {
+    width: 671px;
+    height: 100%;
+    float: left;
+    padding-left: 179px;
+    line-height: 100px;
+}
+
+.headTitle {
+    float: left;
+    padding-right: 20px;
+}
+
+.headTitleList a:hover {
+    color: #ff6700;
+}
+
+.search {
+    width: 297px;
+    height: 100%;
+    float: right;
+}
+
+.searchContent {
+    width: 243px;
+    height: 48px;
+    margin-top: 25px;
+    float: left;
+    border: 1px solid #e0e0e0;
+
+}
+
+.searchContent a {
+    height: 18px;
+    display: block;
+    float: right;
+    background: #eee;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-top: 11px;
+    padding: 5px;
+
+}
+
+.searchContent a:hover {
+    color: #fff;
+    background: #ff6700;
+}
+
+
+.searchButton {
+    width: 51px;
+    height: 48px;
+    margin-top: 25px;
+    float: right;
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 48px;
+    text-align: center;
+}
+
+.searchButton a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.searchButton a:hover {
+    color: #fff;
+    background: #ff6700;
+}
+
+
+/* header */
+.banner {
+    height: 460px;
+    background: #f96868;
+    position: relative;
+}
+
+.imgBox {
+    width: 100%;
+    height: 100%;
+
+}
+
+.imgBox li, .imgBox li a, .imgBox li a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.imgBox li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul.aslide {
+    width: 234px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding: 20px 0;
+}
+
+.aslideList {
+    width: 100%;
+    height: 42px;
+}
+
+.aslideList a {
+    display: block;
+    width: 174px;
+    height: 100%;
+    padding: 0 30px;
+    line-height: 42px;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.aslideList a:hover {
+    background: #ff6700;
+}
+
+.aslideList a span {
+    float: right;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.bannerLeft {
+    width: 42px;
+    height: 69px;
+    position: absolute;
+    left: 234px;
+    top: 50%;
+    z-index: 999;
+    line-height: 69px;
+    text-align: center;
+}
+
+.bannerLeft .icon-left-angle {
+    font-size: 44px;
+}
+.bannerRight .icon-icon1 {
+    font-size: 44px;
+}
+
+.bannerLeft a:hover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.bannerRight {
+    width: 42px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 999;
+    line-height: 69px;
+    text-align: center;
+}
+
+.bannerRight a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bannerRight a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* banner */
+.recommendBox {
+    height: 170px;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+.recommendList {
+    width: 234px;
+    height: 100%;
+    background: #5f5750;
+    float: left;
+}
+
+.oneRecommend {
+    margin-left: 6px;
+    width: 70px;
+    height: 48px;
+    padding-top: 6px;
+    float: left;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.line {
+    height: 44px;
+    border-right: 1px solid red;
+    float: right;
+}
+
+.oneRecommend span {
+    display: block;
+}
+
+.oneRecommend a {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-size: 12px;
+    transition: .2s;
+}
+
+.oneRecommend a:hover {
+    color: #fff;
+}
+
+span.icon-xuangoushouji {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+span.icon-liwu {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+span.icon-Fma {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+span.icon-mifenqia {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+span.icon-yijiuhuanxin {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+span.icon-huafeichongzhi {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.recommendImgList {
+    width: 978px;
+    height: 100%;
+    float: right;
+}
+
+.recommendImg {
+    width: 316px;
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+}
+
+.recommendImg:nth-of-type(3) {
+    margin-right: 0;
+}
+
+.recommendImg a img {
+    width: 100%;
+    height: 100%;
+}
+
+/* recommend*/
+.xiaomiBuy {
+    height: 398px;
+    margin-bottom: 40px;
+}
+
+.xiaomiBuyTop {
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px;
+}
+
+span.xiaomiBuyTitle {
+    display: block;
+    float: left;
+}
+
+.xiaomiBuyTop a {
+    display: block;
+    width: 72px;
+    height: 22px;
+    float: right;
+    margin-top: 25px;
+}
+
+.xiaomiBuyTop .xiaomiBuyLeft, .xiaomiBuyTop .xiaomiBuyRight {
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.xiaomiBuyTop .xiaomiBuyRight {
+    color: #e0e0e0;
+    float: right;
+    border: 1px solid #e0e0e0;
+}
+
+.xiaomiBuyTop .xiaomiBuyLeft {
+    color: #b0b0b0;
+    float: right;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.xiaomiBuyTop .xiaomiBuyLeft .icon-icon1 {
+    font-size: 22px;
+}
+
+.xiaomiBuyTop .xiaomiBuyRight .icon-left-angle {
+    font-size: 20px;
+}
+
+.xiaomiBuyBottom {
+    height: 340px;
+}
+
+.xiaomiBuyTime {
+    width: 234px;
+    height: 289px;
+    background: #f1eded;
+    float: left;
+    border-top: 1px solid #e53935;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.xiaomiBuyTime p {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+}
+
+.oneTime {
+    color: #ef3a3b;
+    font-size: 21px;
+}
+
+.xiaomiBuyTime img {
+    margin: 25px 0;
+}
+
+.xiaomiBuyTime .flashTime {
+    width: 168px;
+    height: 46px;
+    line-height: 46px;
+    margin: 25px auto;
+}
+
+.xiaomiBuyTime .hour, .xiaomiBuyTime .minute, .xiaomiBuyTime .second {
+    width: 46px;
+    background: #605751;
+    color: #fff;
+    float: left;
+
+}
+
+.xiaomiBuyTime .spot {
+    width: 15px;
+    color: #605751;
+    float: left;
+
+}
+
+.xiaomiBuyGoodsContent {
+    width: 978px;
+    height: 340px;
+    float: right;
+    overflow: hidden;
+}
+
+.xiaomiBuyGoodsList {
+    width: 2962px;
+    height: 340px;
+}
+
+.xiaomiBuyGood {
+    width: 234px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.02);
+    float: left;
+    margin-left: 14px;
+}
+
+.xiaomiBuyGood:nth-of-type(1n) {
+    border-top: 1px solid #e53935;
+}
+
+.xiaomiBuyGood:nth-of-type(2n) {
+    border-top: 1px solid #83c44e;
+}
+
+.xiaomiBuyGood:nth-of-type(3n) {
+    border-top: 1px solid #2196f3;
+}
+
+.xiaomiBuyGood:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.xiaomiBuyGood a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.xiaomiBuyGood a img {
+    margin: 50px 0;
+    width: 100px;
+    height: 130px;
+}
+
+.xiaomiBuyGood a .goodTitle {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.xiaomiBuyGood a .desc {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.xiaomiBuyGood a .price {
+    padding-top: 10px;
+    color: #ff6709;
+}
+
+.xiaomiBuyGood a .price span {
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+
+/* xiaomiBuy */
+.blackShark {
+    height: 126px;
+    margin-bottom: 40px;
+    background: black;
+}
+
+.blackShark a {
+    display: block;
+}
+
+.blackShark a, .blackShark a img {
+    width: 100%;
+    height: 126px;
+}
+
+/* blackShark */
+.footer {
+    width: 100%;
+    height: 270px;
+    background: #fff;
+}
+
+.content .top {
+    width: 100%;
+    height: 26px;
+    border-bottom: 1px solid #e0e0e0;
+    display: block;
+    padding: 27px 0;
+
+}
+
+.content .top li {
+    width: 242px;
+    height: 24px;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    float: left;
+
+}
+
+.content .top li:last-child {
+    border: none;
+}
+
+.content .bottom {
+    padding: 40px 0;
+    height: 112px;
+}
+
+.bottom .left {
+    width: 975px;
+    height: 112px;
+    float: left;
+}
+
+.bottom .left .titleItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+    margin-bottom: 26px;
+}
+
+.bottom .left .titleItem > li {
+    width: 160px;
+}
+
+.bottom .left .titleItemContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 70px;
+}
+
+.bottom .left .titleItemContent > li {
+    width: 160px;
+    color: #757575;
+    font-size: 12px;
+}
+
+.bottom .left .titleItemContent > li > a:hover {
+    color: #ff6700;
+}
+
+.bottom .right {
+    float: right;
+    width: 250px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.bottom .right p.phone {
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+
+.bottom .right p {
+    margin: 0 0 16px;
+    font-size: 12px;
+}
+
+.right a {
+    display: block;
+    margin: 0 auto;
+    width: 116px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    border: 1px solid #ff6700;
+    background: #fff;
+    color: #ff6700;
+    text-align: center;
+}
+
+.right a:hover {
+    color: #fff;
+    background-color: #f25807;
+    border-color: #f25807;
+}
+
+.icon-weixiu, .icon-tian, .icon-15tian, .icon-liwu, .icon-weizhi {
+    margin-right: 6px;
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: -2px;
+}
+
+.content .top li a:hover {
+    color: #ff6700
+}
+
+/*footer*/
+.myMi {
+    width: 100%;
+    height: 170px;
+    padding: 30px 0;
+}
+
+.myMiContent {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myMi .mi {
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    text-align: center;
+}
+.icon-CombinedShape{
+    font-size: 54px;
+    line-height: 57px;
+    color: #ff6700;
+
+}
+.myMi .miInfo p {
+    display: flex;
+
+}
+
+.myMi .miInfo {
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+
+.myMi .miInfo p.topInfo > a {
+    display: block;
+    line-height: 18px;
+    font-size: 12px;
+    border-right: 1px solid #b0b0b0;
+    padding: 0 4px;
+    color: #757575;
+}
+.myMi .miInfo  p> a {
+    display: block;
+    color: #b0b0b0;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 0 4px;
+}
+
+.myMi .miInfo p > a:hover {
+    color: #ff6700;
+}
+
+.miImg{
+    margin-left: 67px;
+    margin-top:-10px;
+    height: 28px;
+}
+.miImg a img {
+    width: 83px;
+    height: 28px;
+}
+.slogan {
+    width: 100%;
+}
+.slogan img{
+display: block;
+    margin: 0 auto;
+}
+/*myMi*/
+
+.allPage {
+    width: 100%;
+    background: #f5f5f5;
+}
+.pageNav .navLeft{
+    border: none;
+}
+.page {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.pageVideo{
+    width: 100%;
+}
+.pageVideoContent{
+    width: 1226px;
+    height: 400px;
+    margin: 22px auto;
+}
+.pageContent {
+    width: 1226px;
+    height: 686px;
+    margin: 22px auto;
+}
+.pageHead {
+    width: 100%;
+    height: 58px;
+}
+.pageHead h2 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    float: left;
+}
+.pageControl {
+    width: 100px;
+    height: 24px;
+    float: right;
+    margin: 24px 0 0 0 ;
+    display: inline-block;
+    text-align: center;
+
+}
+.pageControl  a{
+    width: 100px;
+    height: 24px;
+}
+.pageControl  a i{
+    margin-left: 10px;
+}
+.pageControl a:hover{
+    color: #ff6700;
+}
+.pageNav {
+    width: 100%;
+    height: 380px;
+    display: block;
+}
+
+.pageNav .navLeft {
+    float: left;
+    width: 234px;
+    height: 614px;
+    background: #f1eded;
+    text-align: center;
+}
+
+.pageRight {
+    width: 992px;
+    height: 628px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pageItem, .pageItem1 {
+    width: 234px;
+    height: 300px;
+    background: #FFFFFF;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.pageItem1 .itemTop {
+    width: 64px;
+    height: 20px;
+    background: #e53935;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.itemTop {
+    width: 64px;
+    height: 20px;
+    background: #83c44e;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.itemImg {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+
+.itemImg img {
+    width: 160px;
+    height: 160px;
+    display: block;
+}
+
+.itemTitle {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+}
+
+.itemDesc {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    color: #b0b0b0;
+}
+
+.itemPrice {
+    text-align: center;
+    color: #ff6700;
+    margin: 0 10px 14px;
+}
+
+.itemPrice del {
+    text-decoration: line-through;
+    color: #b0b0b0;
+}
+
+/*page*/
+.twoimg {
+    width: 100%;
+    height: 100%;
+}
+
+.twoimg a img {
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*长图片*/
+.rowControl {
+    height: 42px;
+    float: right;
+    margin: 0;
+    padding: 16px 0 0;
+    list-style-type: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.rowList {
+    display: flex;
+}
+.rowList li {
+    height: 24px;
+    margin-left: 30px;
+}
+.rowActive {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+.rowNav {
+    width: 1226px;
+    height: 628px;
+    display: flex;
+}
+.rowLeft {
+    width: 234px;
+    height: 614px;
+}
+.rowLeft img {
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+}
+.rowRight {
+    width: 998px;
+    height: 628px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all {
+    width: 234px;
+    height: 300px;
+}
+
+.figure {
+    width: 234px;
+    height: 143px;
+    background: #FFFFFF;
+    padding-top: 50px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.figureItem {
+    width: 94px;
+    height: 50px;
+}
+.figureTitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.figureImg {
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+}
+.figureImg img {
+    width: 80px;
+    height: 80px;
+}
+.more {
+    width: 234px;
+    height: 143px;
+    background: #FFFFFF;
+    padding-top: 50px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.seemore{
+    width: 214px;
+    height: 44px;
+    margin: 0 60px 0 30px;
+    font-size: 18px;
+    color: #333;
+}
+.moreImg{
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+.moreImg img{
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+/*row*/
+
+
+.recommend{
+    width: 1226px;
+    height: 358px;
+    margin: 0 auto 22px;
+}
+.recommendNav{
+    width: 4960px;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.recommendContent{
+    width: 1226px;
+    height: 320px;
+    display: flex;
+}
+.navItem{
+    width: 234px;
+    height: 300px;
+    background: #FFFFFF;
+    margin-right: 14px;
+    margin-bottom: 7px;
+}
+.navItem:nth-child(5n){
+    margin-right: 0;
+}
+/*recommend*/
+
+.product{
+    width: 1226px;
+    height: 503px;
+    margin: 0 auto;
+}
+.boxHead {
+    width: 100%;
+    height: 58px;
+}
+.boxHead h2 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    float: left;
+}
+.productList{
+    width: 1226px;
+    height: 415px;
+    display: flex;
+    justify-content: space-between;
+}
+.productItem{
+    width: 296px;
+    height: 415px;
+    background: #FFFFFF;
+}
+.productImg{
+    width: 296px;
+    height: 220px;
+    margin: 0 0 28px;
+}
+.productImg img{
+    width: 296px;
+    height: 220px;
+    display: block;
+}
+.review{
+    height: 72px;
+    margin: 0 28px 22px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    overflow: hidden;
+}
+.author{
+    height: 18px;
+    margin: 0 28px 8px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.productinfo{
+    margin: 0 30px;
+    display: flex;
+}
+.productinfo .title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.sep{
+    color: #e0e0e0;
+    margin-left: 10px;
+}
+/*product*/
+
+.sub{
+    width: 1226px;
+    height: 478px;
+    margin: 0 auto 22px;
+}
+.subList{
+    width: 1226px;
+    height: 420px;
+}
+.subItem{
+    width: 296px;
+    height: 420px;
+    background: #FFFFFF;
+    padding: 45px 0 0;
+    box-sizing: border-box;
+    border-top: 1px solid #ffac13;
+    float: left;
+    margin-bottom: 14px;
+    position: relative;
+    /*transition: all 0.8s;*/
+}
+.subItem:nth-child(2){
+    border-top: 1px solid #83c44e;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.subItem:nth-child(3){
+    border-top: 1px solid #e53935;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.subItem:nth-child(4){
+    border-top: 1px solid #2196f3;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.subTitle{
+    margin: 0 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffac13;
+}
+.subName{
+    margin: 0 20px 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #333;
+    text-align: center;
+}
+.subDesc{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 48px 10px;
+    height: 40px;
+}
+.subDesc a{
+    color: #b0b0b0;
+}
+.subPrice{
+    text-align: center;
+    height: 21px;
+    margin: 0 10px 15px;
+}
+.subImg{
+    width: 216px;
+    height: 154px;
+    margin: 0 auto;
+}
+.subImg img{
+    display: block;
+}
+.subwraper{
+    width: 296px;
+    height: 30px;
+}
+.wraperList{
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+}
+.wraperItem{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin: 0 2px;
+}
+.itemActive .dot{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    text-align: left;
+    overflow: hidden;
+    background: #FFFFFF;
+    border:2px solid #ff6700;
+}
+.itemActive .dot:hover{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    text-align: left;
+    overflow: hidden;
+    background: #FFFFFF;
+    border:2px solid #ff6700;
+}
+.dot{
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #b0b0b0;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid #f5f5f5;
+}
+.dot:hover{
+    background: #ff6700;
+}
+.prev{
+    width: 20px;
+    height: 45px;
+    background: #e0e0e0;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    opacity: 0;
+}
+.prev .icon-left-angle{
+    color: #FFFFFF;
+    line-height: 45px;
+}
+.prev:hover{
+    background: #aaaaaa;
+}
+.next{
+    width: 20px;
+    height: 45px;
+    background: #e0e0e0;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    opacity: 0;
+}
+.next .icon-icon1{
+    color: #FFFFFF;
+    line-height: 45px;
+}
+.next:hover{
+    background: #aaaaaa;
+}
+/*sub*/
+
+.radioBottom{
+    width: 1226px;
+    height: 285px;
+}
+.radioList{
+    width: 1226px;
+    height: 285px;
+}
+.radioItem{
+    width: 296px;
+    height: 285px;
+    background: #FFFFFF;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.radioItem:nth-child(1){
+    margin-left: 0;
+}
+.aImg{
+    width: 296px;
+    height: 180px;
+    margin: 0 0 28px;
+    position: relative;
+    display: block;
+}
+.aImg img{
+    width: 296px;
+    height: 180px;
+    display: block;
+}
+.aImg:hover .play{
+    background: #ff6700;
+    border: 2px solid #ff6700;
+}
+.play{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    width: 32px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: #424242;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+}
+.play img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.radioTitle{
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    display: block;
+}
+.radioTitle:hover{
+    color: #ff6700;
+}
+.radioDesc{
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+}
+/*radio*/
+
