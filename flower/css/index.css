@@ -98,12 +98,43 @@
     height: 100%;
     line-height:476px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.artImg .left img,.artImg .right img{
+.left .artLeft{
+    background: #a3afb7;
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+
+
 }
+.left .artLeft .icon-zuo{
+    color: #fff;
+    font-size: 20px;
+
+}
+.right .artRight .icon-you{
+    color: #fff;
+    font-size: 20px;
+
+}
+.right .artRight{
+    background: #a3afb7;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+/*.artImg .left img,.artImg .right img{*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*border-radius: 50%;*/
+/*}*/
 .artImg .middle {
     width: 1020px;
     height: 100%;
