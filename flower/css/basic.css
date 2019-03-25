@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 
 }
 html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {

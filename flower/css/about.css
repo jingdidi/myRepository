@@ -7,7 +7,9 @@
     left:0;
     top: 0;
 }
-
+.nav.active{
+    background:#fff;
+}
 .navContent {
     width: 1170px;
     height: 100%;
@@ -43,6 +45,9 @@
     float: left;
     width: 86px;
     height: 100%;
+}
+.navList li a.active{
+    color: #2a333c;
 }
 .navList li.startActive a{
     color: #16b0bc;

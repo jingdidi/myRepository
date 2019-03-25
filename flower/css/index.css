@@ -1,3 +1,4 @@
+
 .nav {
     width: 100%;
     height: 79px;
@@ -7,7 +8,13 @@
     left: 0;
     top: 0;
 }
+.nav.active{
+    background: #fff;
 
+}
+.navList li a.active{
+    color: #2a333c;
+}
 .navContent {
     width: 1170px;
     height: 100%;
@@ -73,10 +80,10 @@
     padding: 70px 0;
     margin: 0 auto;
 }
-.artContent h1 {
+.artContent h3 {
     text-align: center;
-    font-weight: 200;
-    height: 50px;
+    font-size: 36px;
+    font-weight: 300;
 }
 .artContent p {
     text-align: center;
@@ -130,19 +137,16 @@
     line-height: 30px;
     text-align: center;
 }
-/*.artImg .left img,.artImg .right img{*/
-    /*width: 30px;*/
-    /*height: 30px;*/
-    /*border-radius: 50%;*/
-/*}*/
 .artImg .middle {
     width: 1020px;
     height: 100%;
     overflow: hidden;
 }
 .artList {
-    width: 1400px;
+    width: 20000px;
     height: 100%;
+    margin-left:-1050px;
+    transition: all .3s;
 }
 .artList .artItem {
     width: 320px;
@@ -185,32 +189,52 @@
 .big{
     width: 100%;
     height: 720px;
-    position: relative;
 }
 .banner {
-    width: 100%;
-    height: 720px;
+    width:100%;
+    height:auto;
     background: #cccccc;
-    position: absolute;
-    left: 0;
-    top: 0;
+    position: relative;
+    overflow: hidden;
 }
 .imgBox {
-    width: 100%;
-    height: 100%;
-
+    width:400vw;
+    height:100%;
+    background: #f96868;
+    margin-left:-100vw;
+    transition: all .8s;
 }
-
-.imgBox li, .imgBox li a, .imgBox li a img {
+.imgBox li{
+    width: 100vw;
+    height: 100%;
+    float: left;
+}
+.imgBox li img{
     display: block;
-    width: 100%;
+    width:100%;
     height: 100%;
 }
-
-.imgBox li {
+.arrow{
+    width: 200px;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.1);
+    opacity: 0;
     position: absolute;
+    right: 0;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.arrow:hover{
+    opacity:1;
+}
+.prev{
     left: 0;
-    top: 0;
 }
 /* banner */
 .flower {
@@ -225,10 +249,10 @@
     padding: 70px 0;
 
 }
-.flowerContent h1 {
-    height: 50px;
+.flowerContent h3 {
     text-align: center;
-    font-weight: 200;
+    font-size: 36px;
+    font-weight: 300;
 }
 .flowerList {
     width: 100%;
@@ -306,9 +330,11 @@ margin-top: 5px;
     width: 100%;
     height: 765px;
 }
+
 .workroomContent h3 {
     text-align: center;
     font-size: 36px;
+    font-weight: 300;
 }
 .workroomContent p{
     text-align: center;
@@ -374,7 +400,7 @@ margin-top: 5px;
     color: #aaa;
     line-height: 1.8;
 }
-.footerContent p a {
+.footerContent p a{
     color: #62a8ea;
 }
 .footerContent p a:hover{
@@ -385,3 +411,24 @@ margin-top: 5px;
     height: 20px;
 }
 /* footer */
+.toTop{
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    background-color: #62a8ea;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    /*opacity: 0;*/
+    transition: all .8s;
+    display: none;
+}
+.toTop.active{
+    /*opacity: 1;*/
+    display: block;
+}
+/*toTop*/
